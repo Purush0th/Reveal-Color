@@ -1,21 +1,20 @@
 *{
-	margin:0px;
-	padding:0px;
-	font-family: "Helvetica Neue",Segoe UI; 
+	margin:0;
+	padding:0;
 }
 
-header{
+.reveal-container{
 	margin:1% auto 1% auto;
 	width:1200px;
 	height:230px;
-	background-color: red;
+    font-family: "Helvetica Neue",Segoe UI; 
 }
 
-nav ul {
+.reveal-color ul {
     list-style: none;
 }
 
-li.menu-item {
+.reveal-color li.menu-item {
 	width: 198px;
 	height: 230px;
 	float:left;
@@ -27,32 +26,7 @@ li.menu-item {
 	-o-transition: height .4s;
 	transition: height .4s;
 }
-
-li#item-home:hover .icon{
-	background-color: rgb(208,101,3);
-}
-
-li#item-page:hover .icon{
-	background-color: rgb(233,147,26);
-}
-
-li#item-google-plus:hover .icon{
-	background-color: rgb(22,145,190);
-}
-
-li#item-apple:hover .icon{
-	background-color: rgb(22,107,162);
-}
-
-li#item-html:hover .icon{
-	background-color: rgb(27,54,71);
-}
-
-li#item-article:hover .icon{
-	background-color: rgb(21,40,54);
-}
-
-img.icon {
+.reveal-color img.icon {
 	display: block;
 	margin:50px auto;
 	background-color: #ffffff;
@@ -74,7 +48,8 @@ img.icon {
 	-o-transition:box-shadow .4s;
 	transition:box-shadow .4s;
 }
-p.desc {
+
+.reveal-color p.desc {
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
@@ -84,18 +59,44 @@ p.desc {
 	-webkit-transition: padding-top .4s;
 }
 
-li.menu-item:hover{
+.reveal-color li.menu-item:hover{
 	height:250px;
 }
 
-li.menu-item:hover p.desc {
+.reveal-color li.menu-item:hover p.desc {
 	padding-top: 30px;
 	-ms-opacity: 1;
 	opacity: 1;
 }
 
-li.menu-item:hover img.icon {
+.reveal-color li.menu-item:hover img.icon {
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 	-ms-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 	box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+/* Custom style goes here */
+
+ .reveal-color li#item-home:hover .icon{
+	background-color: rgb(208,101,3);
+}
+
+.reveal-color li#item-page:hover .icon{
+	background-color: rgb(233,147,26);
+}
+
+.reveal-color li#item-google-plus:hover .icon{
+	background-color: rgb(22,145,190);
+}
+
+.reveal-color li#item-apple:hover .icon{
+	background-color: rgb(22,107,162);
+}
+
+.reveal-color li#item-html:hover .icon{
+	background-color: rgb(27,54,71);
+}
+
+.reveal-color li#item-article:hover .icon{
+	background-color: rgb(21,40,54);
 }
